@@ -19,7 +19,7 @@
   </nav>
   <h1 class="text-center mb-4">Pesquisa de Países</h1>
   <!-- Botão -->
-  <div class="container input-group mb-3">
+  <div class="container input-group mb-3" style="width:40rem">
     <input id="pais" type="text" class="form-control" placeholder="Nome do País (em inglês)" aria-label="Recipient's username"
       aria-describedby="button-addon2">
     <button onclick="ProcurarPaises()" class="btn btn-outline-secondary bg-primary text-white" type="button"
@@ -28,8 +28,8 @@
 
   <!-- Card -->
 
-  <div id="card" class="container text-center card text-dark p-3" style="width: 18rem;">
-    <img id="bandeira" src="" class="card-img-top" alt="bandeira">
+  <div id="card" class="container text-center card text-dark p-3 mb-3" style="width: 22rem;">
+    <img id="bandeira" src="" class="card-img-top border border-dark rounded-2" alt="bandeira">
     <div class="card-body">
       <h5 class="card-title" id="nome">Nome</h5>
     </div>
@@ -37,6 +37,7 @@
       <li class="list-group-item"><strong>Capital:</strong><p id="capital">Teste</p></li>
       <li class="list-group-item"><strong>Continente:</strong><p id="continente">Teste</p></li>
       <li class="list-group-item"><strong>População:</strong><p id="populacao">Teste</p></li>
+      <li class="list-group-item"><strong>Moeda Local:</strong><p id="moeda">Teste</p></li>
     </ul>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
